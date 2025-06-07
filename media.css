@@ -1,0 +1,196 @@
+@media only screen and (max-width: 410px) {
+  html{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  body {
+    width: 410px;
+  }
+  .banner{
+    width: 100%;
+  }
+  .banner-photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .banner-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+
+  .banner-name h1{
+    font-size: 4em;
+    padding-bottom: 6%;
+  }
+
+  .banner-introduce{
+    position: static;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0.5em;
+    max-width: 100%;
+    padding: 0.5em;
+  }
+  .banner-introduce p{
+    font-size: 24px;
+  }
+  .content1{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0%;
+}
+
+  .content1-card{
+    gap: 0.8em;
+  }
+
+.content1 img{
+  max-width: 351px;
+}
+
+.content1 h1{
+  margin-top: 0.5em;
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+.content1-card-left{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 351px;
+}
+.content1-card-right{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    max-width: 351px;
+}
+.content1-card-left-info{
+  position: static;
+}
+.content1-card-right-info{
+  position: static;
+}
+.connect{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: end;
+  margin-top: 2em;
+  gap: 1em;
+  margin-bottom: 2em;
+}
+.content2-out{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.content2{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0%;
+}
+
+.content2 time{
+  display: flex;
+  justify-content: center;
+}
+
+.content2 h1{
+  margin-top: 0.5em;
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+.content2-card img{
+  max-width: 351px;
+}
+.label{
+  display: flex;
+  justify-content: center;
+}
+.content2 h3{
+  display: flex;
+  text-align: center;
+}
+.content2 a{
+  display: flex;
+  justify-content: center;
+}
+.label-high-light{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+.high-light{
+  margin: 1em;
+}
+.content3{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0%;
+}
+.content3 h1{
+  margin-top: 0.5em;
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+.banner2{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0%;
+}
+.banner2-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15%;
+}
+.subscribe h1{
+  font-size: 3em;
+}
+.content4{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0%;
+}
+.content4 h1{
+  font-size: 3em;
+  margin-top: 1em;
+  margin-bottom: 0.3em;
+}
+.content4 ul{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0%;
+}
+.share{
+  font-size: 0.8em;
+}
+.email{
+  font-size: 1em;
+}
+}

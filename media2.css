@@ -1,0 +1,109 @@
+@media only screen and (width <=1850px) {
+    .banner-out{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .banner-introduce{
+        position: static;
+        max-width: 100%;
+    }
+    .content1{
+        margin: 0%;
+    }
+    .content1-card-left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: static;
+    }
+    .content1-card-left-info{
+        position: static;
+        max-width: 100%;
+    }
+    .content1-card-right{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: static;
+    }
+    .content1-card-right-info{
+        position: static;
+        max-width: 100%;
+    }
+    .content1-card-img img{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .connect{
+        padding-bottom: 1em;
+    }
+    .content2{
+        margin: 0%;
+    }
+    .content3{
+        margin: 0%;
+        padding-top: 5em;
+    }
+    .content3-banner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .content3-info{
+        position: static;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .content3-info1{
+        position: static;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2em;
+    }
+    .content3-info2{
+        position: static;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2em;
+    }
+    .content3-example{
+        margin: 0%;
+        padding: 0%;
+    }
+    .content3-example ul{
+        position: static;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3em;
+    }
+    .banner2{
+        margin-top: 1em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .banner2-info{
+        padding: 2em;
+    }
+    .content4{
+        margin: 0%;
+    }
+}

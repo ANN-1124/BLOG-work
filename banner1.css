@@ -1,0 +1,58 @@
+.banner{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/Hero%20Section2.png?raw=true);
+    position: relative;
+    z-index: 1;
+}
+
+.banner-photo img{
+    width: 100%
+}
+
+.banner-name{
+    margin: auto;
+}
+
+.banner-name h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 7em;
+    color: blue;
+    font-weight: 1000;
+    padding-bottom: 3rem;
+}
+
+
+.banner-name p{
+    font-size: 2em;
+    color:blue;
+    font-weight: 700;
+}
+
+
+.banner-introduce{
+    max-width: 50%;
+    padding: 3rem;
+    font-size: 1.8em;
+    font-weight: 500;
+    line-height: 150%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: -9rem;
+    left: 50rem;
+    z-index: 2;
+    box-shadow: 0 0 0.3px 0px black;
+}
+
+.banner-introduce p{
+    padding-bottom: 1rem;
+}
+
+
+.banner-introduce img{
+    width: 1.5em;
+    height: 1.5em;
+}

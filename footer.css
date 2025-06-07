@@ -1,0 +1,11 @@
+.footer{
+    height: 72px;
+    display: flex;
+    justify-content: center;
+}
+.footer p{
+    font-size: 1em;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    margin: auto;
+}

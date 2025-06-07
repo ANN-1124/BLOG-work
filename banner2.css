@@ -1,0 +1,58 @@
+.banner2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/Hero%20Section2.png?raw=true);
+}
+.banner2-photo img{
+    width: 100%;
+}
+.subscribe h1{
+    font-size: 4em;
+    color: black;
+    letter-spacing: 1.2px;
+    font-weight: 700;
+}
+.subscribe p{
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.subscribe span{
+    color: blue;
+}
+.subscribe button{
+    border: 1.5px solid blue;
+    padding: 1em;
+    border-radius: 5em;
+    text-decoration: none;
+    font-weight: 500;
+    background-color: white;
+    color: blue;
+    margin-top: 1.8em;
+}
+.subscribe button:hover{
+    color: white;
+    background-color: blue;
+}
+.subscribe input{
+    width: 100%;
+    background-color: rgb(237, 238, 237);
+    font-size: 1em;
+    letter-spacing: 1.2px;
+    padding-left: 0.5em;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    border: none;
+}
+.banner2-info{
+    background-color: white;
+    margin: auto;
+    padding: 5em;
+    padding-right: 10em;
+}
